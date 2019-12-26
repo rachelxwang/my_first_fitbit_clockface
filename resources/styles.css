@@ -1,0 +1,65 @@
+.background {
+  viewport-fill: black;
+}
+
+.lines {
+  y: 128;
+}
+
+.line {
+  width: 100%-50;
+  height: 1;
+  x: 40;
+  y: $+29;
+}
+
+.icons {
+  y: 135;
+}
+
+.icon {
+  height: 20;
+  width: 20;
+  x: 10;
+  y: $+10;
+}
+
+#timeLabel {
+  font-size: 125;
+  font-family: Tungsten-Medium;
+  text-length: 32;
+  text-anchor: middle;
+  x: 35%;
+  y: 40%;
+  fill: white;
+}
+
+#weekdayLabel {
+  font-size: 35;
+  font-family: Seville-Condensed;
+  text-anchor: start;
+  text-length: 15;
+  x: 190;
+  y: 20%;
+  fill: white;
+}
+
+#dateLabel {
+  font-size: 25;
+  font-family: Seville-Condensed;
+  text-anchor: start;
+  text-length: 15;
+  x: 190;
+  y: 30%;
+  fill: white;
+}
+
+#meridiemLabel {
+  font-size: 25;
+  font-family: Seville-Condensed;
+  text-anchor: start;
+  text-length: 15;
+  x: 190;
+  y: 40%;
+  fill: white;
+}

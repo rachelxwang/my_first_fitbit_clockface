@@ -1,0 +1,22 @@
+<svg class="background">
+  <svg class="lines">
+    <rect class="line" fill="darkturquoise" />
+    <rect class="line" fill="limegreen" />
+    <rect class="line" fill="orange" />
+    <rect class="line" fill="red" />
+    <rect class="line" fill="blueviolet" />
+  </svg>
+  
+  <svg class="icons">
+    <image class="icon" href="./resources/imgs/stat_steps_open_32px.png" fill="darkturquoise"/>
+    <image class="icon" href="./resources/imgs/stat_dist_open_32px.png" fill="limegreen"/>
+    <image class="icon" href="./resources/imgs/stat_cals_open_32px.png" fill="orange"/>
+    <image class="icon" href="./resources/imgs/stat_hr_open_32px.png" fill="red"/>
+    <image class="icon" href="./resources/imgs/battery1.png" fill="blueviolet"/>
+  </svg>
+  
+  <text id="weekdayLabel"/>
+  <text id="dateLabel"/>
+  <text id="meridiemLabel"/>
+  <text id="timeLabel"/>
+</svg>
