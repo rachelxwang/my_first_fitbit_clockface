@@ -4,8 +4,11 @@ This project was created as a fun way to begin learning JavaScript and CSS.
 
 ## Screenshots
 Final goal is to create the following clock face display:
+
 <img src="./resources/imgs/screenshot1.png" width="200" height="200">
+
 Current working version:
+
 <img src="./resources/imgs/screenshot0.png" width="200" height="200">
 
 ## Resources
