@@ -2,11 +2,12 @@ import clock from "clock";
 import document from "document";
 import { preferences } from "user-settings";
 import * as util from "../common/utils";
+import * as hr from "./hr.js";
 
 const timeLabel = document.getElementById("timeLabel");
 const weekdayLabel = document.getElementById("weekdayLabel");
 const dateLabel = document.getElementById("dateLabel");
-const meridiemLabel = document.getElementById("meridiemLabel");
+const testLabel = document.getElementById("meridiemLabel");
 
 const todayDate = new Date();
 const todayWeekday = util.toWeekday(todayDate.getDay());
@@ -35,6 +36,12 @@ clock.ontick = (evt) => {
   }
   timeLabel.text = `${hours}:${mins}`;
 }
+
+function displayHR(data) {
+  //testLabel.text = `${data}`;
+}
+hr.getHR(displayHR);
+
 
 weekdayLabel.text = `${todayWeekday}`;
 dateLabel.text = `${todayMonth} ${todayDay}`;
