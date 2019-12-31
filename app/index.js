@@ -26,7 +26,13 @@ clock.ontick = (evt) => {
     meridiemLabel.text = "AM";
   }
   */
-  hours = hours % 12 || 12;
+  if (preferences.clockDisplay === "12h") {
+    // 12h format
+    hours = hours % 12 || 12;
+  } else {
+    // 24h format
+    hours = util.zeroPad(hours);
+  }
   timeLabel.text = `${hours}:${mins}`;
 }
 
