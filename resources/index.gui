@@ -6,7 +6,7 @@
     <rect class="line" fill="red" />
     <rect class="line" fill="blueviolet" />
   </svg>
-  
+
   <svg class="icons">
     <image class="icon" href="./resources/imgs/stat_steps_open_32px.png" fill="darkturquoise"/>
     <image class="icon" href="./resources/imgs/stat_dist_open_32px.png" fill="limegreen"/>
@@ -14,7 +14,15 @@
     <image class="icon" href="./resources/imgs/stat_hr_open_32px.png" fill="red"/>
     <image class="icon" href="./resources/imgs/battery1.png" fill="blueviolet"/>
   </svg>
-  
+
+  <svg class="metrics">
+    <text class="metric" id="stepsLabel" fill="darkturquoise"/>
+    <text class="metric" id="distLabel" fill="limegreen"/>
+    <text class="metric" id="amLabel" fill="orange"/>
+    <text class="metric" id="hrLabel" fill="red"/>
+    <text class="metric" id="batteryLabel" fill="blueviolet"/>
+  </svg>
+
   <text id="weekdayLabel"/>
   <text id="dateLabel"/>
   <text id="meridiemLabel"/>

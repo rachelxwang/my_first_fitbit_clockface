@@ -42,6 +42,18 @@ function displayHR(data) {
 }
 hr.getHR(displayHR);
 
-
 weekdayLabel.text = `${todayWeekday}`;
 dateLabel.text = `${todayMonth} ${todayDay}`;
+
+
+// TEMPORARY EXAMPLE DISPLAY
+const stepsLabel = document.getElementById("stepsLabel");
+const distLabel = document.getElementById("distLabel");
+const amLabel = document.getElementById("amLabel");
+const hrLabel = document.getElementById("hrLabel");
+const batteryLabel = document.getElementById("batteryLabel");
+stepsLabel.text = "10,802 steps";
+distLabel.text = "4.38 mi";
+amLabel.text = "45 min";
+hrLabel.text = "70 bpm";
+batteryLabel.text = "80%";

@@ -24,6 +24,19 @@
   y: $+10;
 }
 
+.metrics {
+  y: 140;
+  x: 100%-10;
+}
+
+.metric {
+  font-size: 18;
+  font-family: System-Regular;
+  text-length: 20;
+  text-anchor: end;
+  y:$+10;
+}
+
 #timeLabel {
   font-size: 125;
   font-family: Tungsten-Medium;
