@@ -3,7 +3,14 @@ A simple Fitbit clock face for Versa 2.
 This project was created as a fun way to begin learning JavaScript and CSS.
 
 ## Screenshots
-<img src="./resources/imgs/screenshot1.png" width="100" height="100">
+<div class="row">
+  <div class="column">
+    <img src="./resources/imgs/screenshot1.png" width="200" height="200">
+  </div>
+  <div class="column">
+    <img src="./resources/imgs/screenshot0.png" width="200" height="200">
+  </div>
+</div>
 
 ## Resources
 - [metrix-fitbit clock face created by rootasjey](https://github.com/rootasjey/metrix-fitbit)
